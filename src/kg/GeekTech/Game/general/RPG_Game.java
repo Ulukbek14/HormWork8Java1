@@ -18,9 +18,10 @@ public class RPG_Game {
         Medic assistant = new Medic(250,15,5,"Alymbek");
         Tank power = new Tank(300, 5,"Altynbek");
         Antman ant = new Antman(280, 20,"Erlan");
+        Thor tho = new Thor(290,20,"Alekseev");
 
 
-        Hero[] heroes = {warrior, doc, magic, berserk, assistant, power, ant};
+        Hero[] heroes = {warrior, doc, magic, berserk, assistant, power, ant, tho};
         printStatistics(boss, heroes);
 
         while (!isGameFinish(boss, heroes)){
